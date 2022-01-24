@@ -229,7 +229,7 @@ BEGIN
         
     WHILE i <= 50 DO
         INSERT INTO file_list(file_no, file_root, file_name)
-          VALUES(concat(i), concat('파일경로',i), concat('파일글제목',i));
+          VALUES(concat(i), concat('파일경로',i), concat('파일제목',i));
         SET i = i + 1;
     END WHILE;
 END$$
